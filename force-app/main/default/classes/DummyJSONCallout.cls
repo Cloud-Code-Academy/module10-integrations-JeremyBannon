@@ -52,7 +52,7 @@ public with sharing class DummyJSONCallout {
 		System.debug(response.getStatus());
 		// If the HTTP response code is successful, parse the JSON response and update the contact.
 		if(response.getStatusCode() == 200){
-			Contact cont = 
+			//Contact cont = 
 		}
 		//Contact cont = null;
 		//upsert cont DummyJSON_Id__c; //insert/update from the JSON response using the external id (dummyUserId)
